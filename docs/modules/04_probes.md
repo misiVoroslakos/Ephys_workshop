@@ -77,8 +77,6 @@ A grab-bag of build protocols/videos:
 Pick a probe/implant strategy for each:
 
 **Group 1:** Freely moving mouse, dorsal CA1. Maximize simultaneously recorded single units from pyramidal layer.  
-[<img src="../assets/img/CA1_solution.png" alt="Group 1 solution" width="250">](../assets/img/CA1_solution.png)
-
 **Group 2:** Mouse somatosensory cortex; laminar processing across L2/3, L4, L5, L6.  
 **Group 3:** Freely moving mouse, CM thalamus. Maximize unit yield.  
 **Group 4:** Freely moving rat, putamen + motor cortex. Maximize unit yield in both.
@@ -89,6 +87,16 @@ Suggested structure for answers:
 3. Mounting (fixed vs microdrive)
 4. Expected failure mode (unit loss, drift, mechanical damage, payload)
 5. What you would measure to declare success
+
+Solutions
+**Group 1**<br>
+[<img src="../assets/img/CA1_solution.png" alt="Group 1 solution" width="250">](../assets/img/CA1_solution.png)<br>
+**Group 2**<br>
+[<img src="../assets/img/Cortex_solution.png" alt="Group 1 solution" width="250">](../assets/img/Cortex_solution.png)<br>
+**Group 3**<br>
+[<img src="../assets/img/CM_thalamus_solution.png" alt="Group 1 solution" width="250">](../assets/img/CM_thalamus_solution.png)<br>
+**Group 4**<br>
+[<img src="../assets/img/rat_CPU_M1_solution.png" alt="Group 1 solution" width="250">](../assets/img/rat_CPU_M1_solution.png)<br>
 
 ## Repo navigation
 - Next module in the deck is grounding/reference.
