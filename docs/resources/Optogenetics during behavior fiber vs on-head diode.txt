@@ -1,0 +1,67 @@
+Optogenetics during behavior: fiber vs on-head diode
+
+Light delivery options
+
+1) Patch cable + optic fiber to ferrule (classic)
+
+Bring an optic fiber to the animal and connect via ferrule.
+
+Works well for many tasks, but the patch cable can add torque/drag during behavior.
+
+A good commutator helps a lot (reduces twisting and cable-induced forces).
+
+2) On-head laser diode + ferrule (wire current delivery)
+
+Glue a laser diode and a ferrule together (diode-coupled to fiber/ferrule).
+
+Deliver current through wires instead of delivering light through a patch cable.
+
+Pros: wires are typically thinner + more flexible, improving mobility and reducing behavioral confounds.
+
+Cons: requires extra build/validation (power stability, heat, optical output calibration, strain relief).
+
+Laser diode build protocol: (add link here)
+
+Attaching an optic fiber to a silicon probe
+
+A practical description of fiber attachment to a silicon probe:
+
+Journal of Neurophysiology (2012):
+(Link provided: https://journals.physiology.org/doi/full/10.1152/jn.00153.2012?rfr_dat=cr_pub++0pubmed&url_ver=Z39.88-2003&rfr_id=ori%3Arid%3Acrossref.org)
+
+When it doesn’t matter much
+
+If you only do optotagging in the homecage (minimal movement demands), fiber vs diode usually matters less.
+
+Optotagging protocol (quick, practical)
+Pulse train
+
+Know your opsin kinetics (latency/jitter depend strongly on opsin + cell type + expression).
+
+Deliver < 2 ms light pulses every 200 ms (i.e., 5 Hz).
+
+Repeat ≥ 5000 pulses (up to 10,000 for weaker effects / low firing rates).
+
+Artifact handling
+
+Before spike sorting: remove/cut out light artifacts (including amplifier saturation, photoelectric effects, TTL edge artifacts).
+
+Keep a copy of the raw timestamps so you can exclude “contaminated” windows consistently.
+
+What to look for
+
+Look for a significant increase in spiking within ~8 ms after pulse onset.
+
+Much longer latencies can reflect polysynaptic / network effects (caveat: exact cutoff depends on opsin + local circuit).
+
+Statistical test: SALT
+
+Use SALT to quantify whether the post-stimulus latency distribution is different from baseline:
+
+[P, I] = SALT(SPT_BASELINE, SPT_TEST, DT, WN)
+
+Computes a modified Jensen–Shannon divergence between spike-latency histograms (Endres & Schindelin, 2003).
+
+P: significance; I: effect size / information-like measure (implementation-dependent).
+
+Practical note: set DT and WN to resolve expected opsin latency/jitter (e.g., 0.5–1 ms binning; analysis window that covers the direct response period).
