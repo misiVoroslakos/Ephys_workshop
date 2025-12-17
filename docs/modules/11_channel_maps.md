@@ -18,21 +18,13 @@ Channel maps are the bridge between:
 - Implant orientation (photos + notes)
 - Any remapping or disabled channels
 
-## Practical advice
-- Keep maps in the repo: `docs/assets/channel_maps/` or `code/channel_maps/`
-- Name maps with:
-  - probe model
-  - headstage/DAQ
-  - date/version
-
-Example:
-`NP2_4shank_headstageX_map_v2025-12-17.json`
-
 ## Exercise
-Take one dataset and draw:
-- shank layout
-- channel numbering
-- approximate anatomy alignment
+Create the channel map for this probe:
+<div style="display:flex; gap:20px; align-items:flex-start;">
+  <img src="../assets/img/probe_layout.jpg" alt="Probe Layout" style="width:32%;"/>
+  <img src="../assets/img/omnetics_layout.jpg" alt="Omnetics layout" style="width:32%;"/>
+  <img src="../assets/img/headstage_layout.jpg" alt="Headstage pinout" style="width:32%;"/>
+</div><br><br>
 
 ## Repo navigation
 - Next: [Module 12 — Preprocessing & spike sorting](12_preprocessing_spikesorting.md)
