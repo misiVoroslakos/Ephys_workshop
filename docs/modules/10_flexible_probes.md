@@ -30,7 +30,7 @@ Write a one-paragraph justification:
 - what’s the minimum channel count you can tolerate
 - what validation would convince you it’s working
 
-## Your notes (local)
+## My notes
 - [Why do we need flexible probes (txt)](../resources/Why_do_we_need_flexible_probes.txt)
 
 ## Repo navigation
