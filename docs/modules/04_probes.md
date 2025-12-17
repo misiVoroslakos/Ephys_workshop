@@ -61,7 +61,7 @@ Pick a probe/implant strategy for each:
 **Group 3:** Freely moving mouse, CM thalamus. Maximize unit yield.  
 **Group 4:** Freely moving rat, putamen + motor cortex. Maximize unit yield in both.
 
-Suggested structure for answers ([decision tree](../assets/img/choosing_silicon_probe.png):
+Suggested structure for answers ([decision tree](../assets/img/choosing_silicon_probe.png)):
 1. Target + geometry constraints (depth, extent, bilateral?)
 2. Probe type (acute/chronic, passive/active, shank count)
 3. Mounting (fixed vs microdrive)
