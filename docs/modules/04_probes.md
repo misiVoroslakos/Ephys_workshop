@@ -29,22 +29,20 @@
 **Practical message:** “channel count” is not the only constraint — **weight + stiffness + cable mechanics** can dominate behavioral experiments.
 
 ## 3) Vendors (Alphabetical order)
-[- Cambridge Neurotech](https://www.cambridgeneurotech.com/)
-[- IMEC](https://www.neuropixels.org/)
-[- NeuroNexus](https://www.neuronexus.com/)
-[- Plexon](https://plexon.com/)
+- [Cambridge Neurotech](https://www.cambridgeneurotech.com/)
+- [IMEC](https://www.neuropixels.org/)
+- [NeuroNexus](https://www.neuronexus.com/)
+- [Plexon](https://plexon.com/)
 
-## 4) Microdrives / shuttles
-- “Microdrive, shuttle (just choose one :D)”
-
-# Open-source vs commercial
-- “None of the open-source will work” (opinion), with reasons:
-  - printer tolerance
-  - outdated repos / missing details
-  - hidden “secrets” not shown
-- Commercial is ~10× more expensive but:
-  - quality control
-  - works as intended
+## 4) Microdrives / shuttles (just choose one :D)
+- Open-source vs commercial
+  - “None of the open-source will work” (opinion), with reasons:
+    - printer tolerance
+    - outdated repos / missing details
+    - hidden “secrets” not shown
+  - Commercial is ~10× more expensive but:
+    - quality control
+    - works as intended
 
 Open-source microdrives can be great *starting points*, but expect iteration and troubleshooting. If you need reliability fast, commercial often wins.
 
