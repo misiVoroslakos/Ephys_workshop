@@ -1,8 +1,4 @@
----
-layout: default
-title: "Module 12 — Preprocessing & spike sorting"
----
-
+<!-- docs/modules/12_preprocessing_spikesorting.md -->
 # Module 12 — Preprocessing & spike sorting
 
 This module is a **high-level checklist** for taking raw extracellular recordings to “sorting-ready” data. The goal is to keep the website readable and put the step-by-step procedure into a reusable MATLAB function.
