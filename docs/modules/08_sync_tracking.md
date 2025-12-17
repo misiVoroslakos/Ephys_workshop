@@ -19,8 +19,7 @@ If synchronization is wrong, the experiment is often unusable. This module is ab
 - Visible/audible markers recorded by video and DAQ
 
 ## Behavior tracking overview
-- Markerless: [DeepLabCut](https://www.mackenziemathislab.org/deeplabcut
-), [SLEAP](https://sleap.ai/)
+- Markerless: [DeepLabCut](https://www.mackenziemathislab.org/deeplabcut), [SLEAP](https://sleap.ai/)
 - Key considerations:
   - consistent lighting + background
   - camera placement and lens distortion
