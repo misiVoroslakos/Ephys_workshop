@@ -9,8 +9,9 @@ This module is the “on-ramp”: what to skim before the workshop, plus a short
 - **Chapter 4** — *Electrophysiology*
 - **Chapter 8** — *Manipulating Neural Activity*
 
-**Guide to biopotentials, electric fields**
-<div style="display:flex; gap:12px; align-items:flex-start;">
+
+**Books on electric fields, biopotentials**
+<div style="display:flex; gap:20px; align-items:flex-start;">
   <img src="../assets/img/Nunez_book.jpg" alt="Nunez book" style="width:32%;"/>
   <img src="../assets/img/Electric_brain_signals.jpg" alt="Image 2" style="width:32%;"/>
   <img src="../assets/img/Bioelectricity.jpg" alt="Image 3" style="width:32%;"/>
