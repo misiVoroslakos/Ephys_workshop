@@ -26,14 +26,14 @@ By the end, you should be able to:
 2. [A short history of extracellular recording](docs/modules/02_history.md)
 3. [Parts of an extracellular ephys system](docs/modules/03_system_overview.md)
 4. [Probes: anatomy, types, vendors, selection](docs/modules/04_probes.md)
-5. Microdrive vs Neuropixels (unit yield vs coverage)
-6. Ground & reference (practical rules + troubleshooting)
-7. Head-fixed vs freely moving: when and why
-8. Synchronization, automation, and behavior tracking
-9. Optogenetics (optrodes, on-head diodes, microLED probes, optotagging)
-10. Flexible probes: promises and reality check
-11. Channel maps: headstage ↔ probe geometry
-12. Preprocessing & spike sorting
+5. [Microdrive vs Neuropixels (unit yield vs coverage)](docs/modules//05_microdrive_vs_neuropixels.md)
+6. [Ground & reference (practical rules + troubleshooting)](docs/modules/06_ground_reference.md)
+7. [Head-fixed vs freely moving: when and why](docs/modules/07_headfixed_vs_freelymoving.md)
+8. [Synchronization, automation, and behavior tracking](docs/modules/08_sync_tracking.md)
+9. [Optogenetics (optrodes, on-head diodes, microLED probes, optotagging)](docs/modules/09_optogenetics.md)
+10. [Flexible probes: promises and reality check](docs/modules/10_flexible_probes.md)
+11. [Channel maps: headstage ↔ probe geometry](docs/modules/11_channel_maps.md)
+12. [Preprocessing & spike sorting](docs/modules/12_preprocessing_spikesorting.md)
 
 
 ## Dataset resources
