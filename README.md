@@ -6,8 +6,8 @@ Materials for a practical workshop on extracellular electrophysiology: probes, i
 **Date:** 2025-12-11
 
 ## Start here
-- **Front page / website:** See `docs/index.md` (GitHub Pages)
-- **Slides (PDF):** `slides/Electrophysiology_Workshop.pdf`
+- **Front page / website:** [docs/index.md](docs/index.md)
+- **Slides (PDF):** [slides/Electrophysiology_Workshop.pdf](slides/Electrophysiology_Workshop.pdf)
 
 ## Who this is for
 Trainees and researchers who want to understand and execute modern extracellular ephys experiments (silicon probes, Neuropixels, microdrives) and the practical engineering tradeoffs.
@@ -22,10 +22,10 @@ By the end, you should be able to:
 6. Design a basic optotagging experiment and interpret latency statistics.
 
 ## Modules
-1. Background & recommended reading
-2. Short history of extracellular recording
-3. Parts of an extracellular ephys system
-4. Probe “anatomy” + vendor landscape
+1. [Background & pre-work](docs/modules/01_background.md)
+2. [A short history of extracellular recording](docs/modules/02_history.md)
+3. [Parts of an extracellular ephys system](docs/modules/03_system_overview.md)
+4. [Probes: anatomy, types, vendors, selection](docs/modules/04_probes.md)
 5. Microdrive vs Neuropixels (unit yield vs coverage)
 6. Ground & reference (practical rules + troubleshooting)
 7. Head-fixed vs freely moving: when and why
