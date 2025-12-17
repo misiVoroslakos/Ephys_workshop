@@ -8,7 +8,7 @@ Both approaches can produce excellent datasets, but they optimize **different ob
 
 ## Microdrive approach (physical repositioning)
 ### Typical workflow
-- Implant the tip **~200 µm above target**
+- Implant the tip **~200 µm above target** (don't forget to adjust the [**initial height**](../assets/img/shuttle_initial_height.jpg) of the shuttle)
 - After recovery: advance in small increments  
   - common pitch: **~280 µm per full turn**
   - typical steps: **¼ turn (~70 µm)** or **⅛ turn (~35 µm)**
