@@ -21,8 +21,8 @@ Channel maps are the bridge between:
 ## Exercise
 Create the channel map for this probe:
 <div style="display:flex; gap:20px; align-items:flex-start;">
-  <img src="../assets/img/probe_layout.jpg" alt="Probe Layout" style="width:32%;"/>
-  <img src="../assets/img/omnetics_layout.jpg" alt="Omnetics layout" style="width:32%;"/>
+  <img src="../assets/img/probe_layout.png" alt="Probe Layout" style="width:32%;"/>
+  <img src="../assets/img/omnetics_layout.png" alt="Omnetics layout" style="width:32%;"/>
   <img src="../assets/img/headstage_layout.jpg" alt="Headstage pinout" style="width:32%;"/>
 </div><br><br>
 
