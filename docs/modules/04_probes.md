@@ -53,27 +53,7 @@ Open-source microdrives can be great *starting points*, but expect iteration and
 Resource link:
 - https://elifesciences.org/articles/59716
 
-## 6) Neuropixels holders
-A grab-bag of build protocols/videos:
-- https://www.biorxiv.org/content/10.1101/2023.12.22.572441v2
-- https://elifesciences.org/articles/98522
-- https://www.nature.com/articles/s41596-021-00539-9
-- https://www.protocols.io/view/chronic-recoverable-neuropixels-in-mice-e6nvwjo87lmk/v2
-- https://elifesciences.org/articles/47188
-- https://elifesciences.org/articles/59716
-
-## 7) Microdrive resources
-A grab-bag of build protocols/videos:
-- https://elifesciences.org/articles/65859  (videos available)
-- https://bio-protocol.org/en/bpdetail?id=4137&type=0
-- https://www.jove.com/v/3568/large-scale-recording-neurons-movable-silicon-probes-behaving
-- https://www.nature.com/articles/s41598-017-03340-5
-- https://www.sciencedirect.com/science/article/pii/S0165027006002883
-- https://www.cambridgeneurotech.com/nanodrives
-- https://www.3dneuro.com/products/r2drive/
-- https://www.neuronexus.com/product_documentation/microdrive/
-
-## 8) In-workshop group exercise
+## 6) Group exercise
 Pick a probe/implant strategy for each:
 
 **Group 1:** Freely moving mouse, dorsal CA1. Maximize simultaneously recorded single units from pyramidal layer.  
