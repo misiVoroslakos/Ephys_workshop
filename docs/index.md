@@ -4,7 +4,7 @@
 Welcome! This site hosts the workshop materials (slides + short write-ups) for practical extracellular electrophysiology: probes, implants, grounding/reference, sync + behavior integration, and preprocessing/spike sorting.
 
 ## Quick links
-- **Slides (PDF):** `../slides/Electrophysiology_Workshop.pdf`
+- **Slides (PDF):** `slides/Electrophysiology_Workshop.pdf`
 - **Start with Module 01:** `./modules/01_background.md`
 
 ## Who this is for
