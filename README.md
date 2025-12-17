@@ -35,15 +35,12 @@ By the end, you should be able to:
 11. Channel maps: headstage ↔ probe geometry
 12. Preprocessing & spike sorting
 
-## How to use this repo
-- If you’re attending live: follow the modules in order.
-- If you’re self-studying: start with Modules 3–6, then jump to 12.
 
 ## Dataset resources
 See Module pages for links to public Neuropixels/example datasets.
 
 ## License
-Add a license (MIT/CC-BY recommended).
+MIT/CC-BY
 
 ## Contact
 Email: voroslakos@gmail.com
