@@ -26,5 +26,7 @@ Create the channel map for this probe:
   <img src="../assets/img/headstage_layout.jpg" alt="Headstage pinout" style="width:32%;"/>
 </div><br><br>
 
+**Note**, that you can plug the headstage in two ways resulting in two different channel maps.<br>
+
 ## Repo navigation
 - Next: [Module 12 — Preprocessing & spike sorting](12_preprocessing_spikesorting.md)
