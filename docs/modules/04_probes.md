@@ -76,7 +76,9 @@ A grab-bag of build protocols/videos:
 ## 8) In-workshop group exercise
 Pick a probe/implant strategy for each:
 
-**Group 1:** Freely moving mouse, dorsal CA1. Maximize simultaneously recorded single units from pyramidal layer. ([Solution](../assets/img/CA1_solution.png))
+**Group 1:** Freely moving mouse, dorsal CA1. Maximize simultaneously recorded single units from pyramidal layer.  
+[<img src="../assets/img/CA1_solution.png" alt="Group 1 solution" width="250">](../assets/img/CA1_solution.png)
+
 **Group 2:** Mouse somatosensory cortex; laminar processing across L2/3, L4, L5, L6.  
 **Group 3:** Freely moving mouse, CM thalamus. Maximize unit yield.  
 **Group 4:** Freely moving rat, putamen + motor cortex. Maximize unit yield in both.
