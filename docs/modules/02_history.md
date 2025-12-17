@@ -29,7 +29,7 @@ This module gives you a fast timeline for *why* modern systems look the way they
 - **Tetrode** (1993)
 - **Hyperdrive** (Bruce McNaughton) (1990-)
 - **Michigan vs UTAH probe** (1990-)<br>
-<img src="../assets/img/combined_history.png><br><br>
+<img src="../assets/img/combined_history.png" style="max-width:700px; width:100%;"><br><br>
 
 ### 2000s–2020s: Channel count explosion
 - Large-scale recordings become routine
