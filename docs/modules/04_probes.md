@@ -88,15 +88,20 @@ Suggested structure for answers:
 4. Expected failure mode (unit loss, drift, mechanical damage, payload)
 5. What you would measure to declare success
 
-My Recommendations<br>
-**Group 1**<br><br>
-[<img src="../assets/img/CA1_solution.png" alt="Group 1 solution" width="250">](../assets/img/CA1_solution.png)<br><br>
-**Group 2**<br><br>
-[<img src="../assets/img/Cortex_solution.png" alt="Group 1 solution" width="250">](../assets/img/Cortex_solution.png)<br><br>
-**Group 3**<br><br>
-[<img src="../assets/img/CM_thalamus_solution.png" alt="Group 1 solution" width="250">](../assets/img/CM_thalamus_solution.png)<br><br>
-**Group 4**<br><br>
-[<img src="../assets/img/rat_CPU_M1_solution.png" alt="Group 1 solution" width="250">](../assets/img/rat_CPU_M1_solution.png)<br><br>
+M## My Recommendations
+
+**Group 1 — Freely moving mouse, dorsal CA1 (maximize PYR unit yield)**  
+[<img src="../assets/img/CA1_solution.png" alt="Group 1 solution (CA1)" height="170">](../assets/img/CA1_solution.png)
+
+**Group 2 — Mouse somatosensory cortex (laminar L2/3–L6 processing)**  
+[<img src="../assets/img/Cortex_solution.png" alt="Group 2 solution (cortex laminar)" height="170">](../assets/img/Cortex_solution.png)
+
+**Group 3 — Freely moving mouse, CM thalamus (maximize unit yield)**  
+[<img src="../assets/img/CM_thalamus_solution.png" alt="Group 3 solution (CM thalamus)" height="170">](../assets/img/CM_thalamus_solution.png)
+
+**Group 4 — Freely moving rat, CPu + M1 (maximize yield in both)**  
+[<img src="../assets/img/rat_CPU_M1_solution.png" alt="Group 4 solution (rat CPu + M1)" height="170">](../assets/img/rat_CPU_M1_solution.png)
+
 
 ## Repo navigation
 - Next module in the deck is grounding/reference.
