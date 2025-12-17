@@ -4,10 +4,9 @@
 This module is a “systems diagram in words”: what each component does, and what usually breaks first.
 
 ## The parts
-  <div style="flex:1; min-width:280px;">
-    <img src="../assets/img/Extracellular_ephys_system_overview_diagram.png"
-         alt="Extracellular ephys system overview diagram"
-         style="width:100%; max-width:520px;"/>
+  <img src="../assets/img/Extracellular_ephys_system_overview_diagram.png"
+     alt="Extracellular ephys system overview diagram"
+     style="width:100%; max-width:350px;"/>
 
 ## What each part is responsible for
 
@@ -37,7 +36,7 @@ This module is a “systems diagram in words”: what each component does, and w
   - tracking (e.g., DLC/SLEAP)
   - stimulation (opto, electrical)
   - reward/valves/TTL events
-- If sync is wrong, the whole experiment can become “unusable”.
+**- If sync is wrong, the whole experiment can become “unusable”.**
 
 ### 7) Ground and reference
 - Usually the most confusing topic, and the most “lab-specific”.
