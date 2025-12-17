@@ -40,7 +40,7 @@ Given spike rasters across many trials:
 - discuss false positives (network effects) vs false negatives (weak expression)
 
 ## Your notes (local)
-- [Optogenetics during behavior: fiber vs on-head diode (txt)](../resources/Optogenetics_during_behavior_fiber_vs_on-head_diode.txt)
+- [Optogenetics during behavior: fiber vs on-head diode (txt)](../resources/Optogenetics during behavior fiber vs on-head diode.txt)
 - [Laser diode for freely moving optogenetics (PDF)](../resources/Laser_diode_for_freely_moving_optogenetics.pdf)
 
 ## Repo navigation
