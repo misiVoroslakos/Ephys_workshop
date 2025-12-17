@@ -33,4 +33,4 @@ But now that we have tiny headstages with amp mounted a few mm away from the ele
 - 30–60 s “noise sample” recording
 
 ## Repo navigation
-- Next: [Module 07 — Head-fixed vs freely moving](07_headfixed_vs_freely_moving.md)
+- Next: [Module 07 — Head-fixed vs freely moving](07_headfixed_vs_freelymoving.md)
