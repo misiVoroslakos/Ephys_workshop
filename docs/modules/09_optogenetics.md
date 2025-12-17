@@ -42,8 +42,8 @@ Given spike rasters across many trials:
 - define criteria for “tagged” vs “not tagged”
 - discuss false positives (network effects) vs false negatives (weak expression)
 
-## Your notes (local)
-- [Optogenetics during behavior: fiber vs on-head diode](../resources/Optogenetics during behavior fiber vs on-head diode.txt)
+## My notes, guides
+- [Optogenetics during behavior: fiber vs on-head diode](../resources/Optogenetics_during_behavior_fiber_vs_on_head_diode.txt)
 - [Laser diode for freely moving optogenetics](../resources/Laser_diode_for_freely_moving_optogenetics.pdf)
 
 ## Repo navigation
