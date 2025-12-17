@@ -32,6 +32,9 @@ Cons:
 - Avoid interpreting the first milliseconds if there is a sharp optical artifact
 - Consider blanking / interpolation around light onset for LFP
 - For spikes: validate with latency distribution + reliability metrics
+<img src="../assets/img/optotagging.png"
+     alt="Optotagging"
+     style="width:100%; max-width:350px;"/>
 
 ## Exercise
 Given spike rasters across many trials:
@@ -40,8 +43,8 @@ Given spike rasters across many trials:
 - discuss false positives (network effects) vs false negatives (weak expression)
 
 ## Your notes (local)
-- [Optogenetics during behavior: fiber vs on-head diode (txt)](../resources/Optogenetics during behavior fiber vs on-head diode.txt)
-- [Laser diode for freely moving optogenetics (PDF)](../resources/Laser_diode_for_freely_moving_optogenetics.pdf)
+- [Optogenetics during behavior: fiber vs on-head diode](../resources/Optogenetics during behavior fiber vs on-head diode.txt)
+- [Laser diode for freely moving optogenetics](../resources/Laser_diode_for_freely_moving_optogenetics.pdf)
 
 ## Repo navigation
 - Next: [Module 10 — Flexible probes](10_flexible_probes.md)
