@@ -1,9 +1,9 @@
 <!-- docs/modules/04_probes.md -->
 # Module 04 — Probes: anatomy, types, vendors, and selection
 
-This module matches the probe-focused section of the deck: “what kind of probe do I need, and what are the hidden costs?”
+“What kind of probe do I need, and what are the hidden costs?”
 
-## 1) Probe “anatomy”: acute vs chronic (from the slides)
+## 1) Probe “anatomy”: acute vs chronic
 
 ### Acute probe
 - No flex cable → typically **very low noise**
@@ -16,11 +16,11 @@ This module matches the probe-focused section of the deck: “what kind of probe
 - Often used in **freely moving** prep
 - Can also be used head-fixed
 
-## 2) Payload reality check (from the slides)
+## 2) Payload reality check
 - Mouse weight: ~20–30 g
 - Rule of thumb noted: up to ~20% of body weight can be carried (but this is *not* a free pass — behavior and welfare matter)
 
-### Passive vs active probes (from the slides)
+### Passive vs active probes
 - Passive probe: ~0.6–0.8 g
 - Headstage: ~1.2 g
 - Active probe: ~0.6–1.2 g
@@ -28,22 +28,17 @@ This module matches the probe-focused section of the deck: “what kind of probe
 
 **Practical message:** “channel count” is not the only constraint — **weight + stiffness + cable mechanics** can dominate behavioral experiments.
 
-## 3) Vendors mentioned in the slides
-(Alphabetical order in the deck)
-- Cambridge Neurotech
-- IMEC
-- NeuroNexus
-- Plexon
+## 3) Vendors (Alphabetical order)
+[- Cambridge Neurotech](https://www.cambridgeneurotech.com/)
+[- IMEC](https://www.neuropixels.org/)
+[- NeuroNexus](https://www.neuronexus.com/)
+[- Plexon](https://plexon.com/)
 
-> You can expand this list later with “what to buy when” recommendations and lab-tested part numbers.
+## 4) Microdrives / shuttles
+- “Microdrive, shuttle (just choose one :D)”
 
-## 4) Microdrives / shuttles (from the slides)
-- Slide note: “Microdrive, shuttle (just choose one :D)”
-- Cambridge Nanodrives page:  
-  https://www.cambridgeneurotech.com/nanodrives
-
-### Open-source vs commercial (from the slides)
-- “None of the open-source will work” (strong opinion in the deck), with reasons:
+# Open-source vs commercial
+- “None of the open-source will work” (opinion), with reasons:
   - printer tolerance
   - outdated repos / missing details
   - hidden “secrets” not shown
@@ -51,17 +46,17 @@ This module matches the probe-focused section of the deck: “what kind of probe
   - quality control
   - works as intended
 
-**Workshop-friendly phrasing:** open-source microdrives can be great *starting points*, but expect iteration and troubleshooting. If you need reliability fast, commercial often wins.
+Open-source microdrives can be great *starting points*, but expect iteration and troubleshooting. If you need reliability fast, commercial often wins.
 
-## 5) Chronic reality: losing units over time (from the slides)
+## 5) Chronic reality: losing units over time
 - “Losing cells over time with Neuropixels”
 - Key point: single-unit yield can get worse over days; this happens with silicon probes if you don’t move them → motivating microdrives.
 
 Resource link from the deck:
 - https://elifesciences.org/articles/59716
 
-## 6) Neuropixels holders (from the slides)
-Links collected in the deck (holders + chronic workflows):
+## 6) Neuropixels holders
+A grab-bag of build protocols/videos:
 - https://www.biorxiv.org/content/10.1101/2023.12.22.572441v2
 - https://elifesciences.org/articles/98522
 - https://www.nature.com/articles/s41596-021-00539-9
@@ -69,7 +64,7 @@ Links collected in the deck (holders + chronic workflows):
 - https://elifesciences.org/articles/47188
 - https://elifesciences.org/articles/59716
 
-## 7) Microdrive resources (from the slides)
+## 7) Microdrive resources
 A grab-bag of build protocols/videos:
 - https://elifesciences.org/articles/65859  (videos available)
 - https://bio-protocol.org/en/bpdetail?id=4137&type=0
@@ -80,7 +75,7 @@ A grab-bag of build protocols/videos:
 - https://www.3dneuro.com/products/r2drive/
 - https://www.neuronexus.com/product_documentation/microdrive/
 
-## 8) In-workshop group exercise (from the slides)
+## 8) In-workshop group exercise
 Pick a probe/implant strategy for each:
 
 **Group 1:** Freely moving mouse, dorsal CA1. Maximize simultaneously recorded single units from pyramidal layer.  
@@ -96,4 +91,4 @@ Suggested structure for answers:
 5. What you would measure to declare success
 
 ## Repo navigation
-- Next module in the deck is usually grounding/reference — add when ready.
+- Next module in the deck is grounding/reference.
