@@ -88,7 +88,7 @@ Suggested structure for answers:
 4. Expected failure mode (unit loss, drift, mechanical damage, payload)
 5. What you would measure to declare success
 
-M## My Recommendations
+## My Recommendations
 
 **Group 1 — Freely moving mouse, dorsal CA1 (maximize PYR unit yield)**  
 [<img src="../assets/img/CA1_solution.png" alt="Group 1 solution (CA1)" height="170">](../assets/img/CA1_solution.png)
