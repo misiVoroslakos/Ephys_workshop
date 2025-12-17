@@ -32,8 +32,5 @@ But now that we have tiny headstages with amp mounted a few mm away from the ele
 - powered devices list
 - 30–60 s “noise sample” recording
 
-## My raw notes
-- [Microdrive vs Neuropixels (txt)](../resources/Microdrive%20vs%20Neuropixels.txt)
-
 ## Repo navigation
 - Next: [Module 07 — Head-fixed vs freely moving](07_headfixed_vs_freely_moving.md)
