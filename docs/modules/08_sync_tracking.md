@@ -17,10 +17,10 @@ If synchronization is wrong, the experiment is often unusable. This module is ab
 - TTL pulses from a master controller (Arduino/FPGA/DAQ)
 - Camera frame sync lines (if supported)
 - Visible/audible markers recorded by video and DAQ
-- Regular “heartbeat” sync pulses for drift detection
 
 ## Behavior tracking overview
-- Markerless: DeepLabCut, SLEAP
+- Markerless: [DeepLabCut](https://www.mackenziemathislab.org/deeplabcut
+), [SLEAP](https://sleap.ai/)
 - Key considerations:
   - consistent lighting + background
   - camera placement and lens distortion
