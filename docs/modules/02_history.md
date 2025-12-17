@@ -7,7 +7,7 @@ This module gives you a fast timeline for *why* modern systems look the way they
 - **Intracellular** recording drove early biophysics: resting potential, AP shape, synaptic potentials.
 - **Extracellular** recording enabled stable, long-duration single-unit recordings, chronic implants, and eventually large-scale population recordings.
 
-## Timeline highlights (from the slides)
+## Timeline highlights
 ### 1930s–1950s: “Intracellular revolution”
 - Glass micropipettes
 - Mostly acute, stationary preparations
@@ -27,21 +27,27 @@ This module gives you a fast timeline for *why* modern systems look the way they
 ### 1980s–1990s: Multi-unit isolation upgrades
 - **Stereotrode** (1983) — simultaneous isolation of multiple units
 - **Tetrode** (1993)
-- Place-cell / theta phase relationship paper (1999) *(as noted in the deck)*
-- **Hyperdrive** (Bruce McNaughton) (1990–)
+- **Hyperdrive** (Bruce McNaughton) (1990-)
+- **Michigan vs UTAH probe** (1990-)<br>
+<div style="display:flex; gap:20px; align-items:flex-start;">
+  <img src="../assets/img/stereotrode.png" alt="Nunez book" style="width:32%;"/>
+  <img src="../assets/img/tetrode.png" alt="Image 2" style="width:32%;"/>
+  <img src="../assets/img/hyperdrive.jpg" alt="Image 3" style="width:32%;"/>
+  <img src="../assets/img/michigan_vs_utah.png" alt="Image 4" style="width:32%;"/>
+</div><br><br>
 
 ### 2000s–2020s: Channel count explosion
 - Large-scale recordings become routine
 - Flexible probes, opto-capable probes, and high-density silicon technology accelerate adoption
-- Examples named in the slides:
-  - **Neuropixels**
-  - **SiNAPS (1024-channel)**
-  - **Hecto-STAR**
-  - Flexible probes + opto-flex probes
+  - [**Neuropixels**](https://www.neuropixels.org/)
+  - [**SiNAPS (1024-channel)**](https://advanced.onlinelibrary.wiley.com/doi/10.1002/advs.202416239)
+  - [**Hecto-STAR**](https://advanced.onlinelibrary.wiley.com/doi/full/10.1002/advs.202105414)
+  - Flexible probes 
+  - Opto-flex probes
 
-## “Worth watching” resource (from the slides)
-- Neuronexus: “A brief history of electrode technology”  
-  https://www.neuronexus.com/a-brief-history-of-electrode-technology/
+## “Worth watching” resource
+- Professor Ken Wise: [The Rocky Road to Neurotechnology](https://www.youtube.com/watch?v=G5mfF5yV_lA)
+- [Neuronexus: “A brief history of electrode technology”](https://www.neuronexus.com/a-brief-history-of-electrode-technology/)
 
 ## Why this history matters (practical takeaways)
 - Many “modern” problems are old problems in new form:
