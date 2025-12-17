@@ -35,15 +35,12 @@ These correspond to later sections of the slide deck and will be added as write-
 - Channel maps: headstage ↔ probe geometry
 - Preprocessing & spike sorting
 
-## How to use these materials
-- **Attending live:** follow the modules in order and keep the PDF open for figures/links.
-- **Self-study:** start with Modules 03–04, then jump to grounding/reference and preprocessing.
 
 ## Dataset resources
 Links to public datasets and example workflows are included inside module pages as the repo evolves.
 
 ## License / attribution
-If you add figures or screenshots from papers, include attribution and ensure permissions are appropriate. For original text and code, choose a license (e.g., CC-BY for text, MIT for code).
+CC-BY for text, MIT for code
 
 ## Contact
-Questions or corrections: open a GitHub issue (preferred), or email `Voroslakos@gmail.com`.
+Questions or corrections: email `Voroslakos@gmail.com`
