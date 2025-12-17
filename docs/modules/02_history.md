@@ -29,11 +29,11 @@ This module gives you a fast timeline for *why* modern systems look the way they
 - **Tetrode** (1993)
 - **Hyperdrive** (Bruce McNaughton) (1990-)
 - **Michigan vs UTAH probe** (1990-)<br>
-<div style="display:flex; gap:20px; align-items:flex-start;">
-  <img src="../assets/img/stereotrode.png" alt="Nunez book" style="width:32%;"/>
-  <img src="../assets/img/tetrode.png" alt="Image 2" style="width:32%;"/>
-  <img src="../assets/img/hyperdrive.jpg" alt="Image 3" style="width:32%;"/>
-  <img src="../assets/img/michigan_vs_utah.png" alt="Image 4" style="width:32%;"/>
+<div style="display:flex; gap:10px; align-items:flex-start;">
+  <img src="../assets/img/stereotrode.png" alt="Nunez book" style="width:20%;"/>
+  <img src="../assets/img/tetrode.png" alt="Image 2" style="width:20%;"/>
+  <img src="../assets/img/hyperdrive.jpg" alt="Image 3" style="width:20%;"/>
+  <img src="../assets/img/michigan_vs_utah.png" alt="Image 4" style="width:20%;"/>
 </div><br><br>
 
 ### 2000s–2020s: Channel count explosion
