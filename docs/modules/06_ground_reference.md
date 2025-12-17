@@ -19,7 +19,7 @@ But now that we have tiny headstages with amp mounted a few mm away from the ele
 - movement-correlated artifacts
 - clipping/saturation
 
-## Troubleshooting workflow ([chart](../assets/img/noise_troubleshoot.tif) by Kate Jeffery and Jim Donnett)
+## Troubleshooting workflow ([chart](../assets/img/noise_troubleshoot.png) by Kate Jeffery and Jim Donnett)
 1. Check for saturation/clipping
 2. Is noise correlated across all channels? → common-mode problem
 3. Wiggle cable/connector → strain relief / intermittents
