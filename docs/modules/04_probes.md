@@ -84,4 +84,4 @@ Suggested structure for answers:
 
 
 ## Repo navigation
-- Next module in the deck is grounding/reference.
+- Next: [Module 05 — Microdrive vs Neuropixels (unit yield vs coverage)](05_microdrive_vs_neuropixels.md)
