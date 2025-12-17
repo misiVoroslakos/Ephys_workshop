@@ -31,10 +31,10 @@ Cons:
 ## Artifact handling (conceptual)
 - Avoid interpreting the first milliseconds if there is a sharp optical artifact
 - Consider blanking / interpolation around light onset for LFP
-- For spikes: validate with latency distribution + reliability metrics
+- For spikes: validate with latency distribution + reliability metrics<br><br>
 <img src="../assets/img/optotagging.png"
      alt="Optotagging"
-     style="width:100%; max-width:350px;"/>
+     style="width:100%; max-width:350px;"/><br>
 
 ## Exercise
 Given spike rasters across many trials:
