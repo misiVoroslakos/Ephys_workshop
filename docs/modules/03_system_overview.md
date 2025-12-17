@@ -4,27 +4,9 @@
 This module is a “systems diagram in words”: what each component does, and what usually breaks first.
 
 ## The parts
-<div style="display:flex; gap:20px; align-items:flex-start; flex-wrap:wrap;">
-
-  <div style="flex:1; min-width:280px;">
-    <ol>
-      <li>Recording probe / electrode / device</li>
-      <li>Microdrive / shuttle / drive / manipulator</li>
-      <li>Headstage / preamp / amplifier</li>
-      <li>Recording cable</li>
-      <li>Recording device / DAQ</li>
-      <li>I/O expander + analog/digital inputs (sync + behavior integration)</li>
-      <li>Ground, reference</li>
-    </ol>
-  </div>
-
-  <div style="flex:1; min-width:280px;">
-    <img src="../assets/img/Extracellular_ephys_system_overview_diagram.png"
-         alt="Extracellular ephys system overview diagram"
-         style="width:100%; max-width:520px;"/>
-  </div>
-
-</div>
+| | |
+|---|---|
+| <ol><li>Recording probe / electrode / device</li><li>Microdrive / shuttle / drive / manipulator</li><li>Headstage / preamp / amplifier</li><li>Recording cable</li><li>Recording device / DAQ</li><li>I/O expander + analog/digital inputs (sync + behavior integration)</li><li>Ground, reference</li></ol> | <img src="../assets/img/Extracellular_ephys_system_overview_diagram.png" alt="Extracellular ephys system overview diagram" style="max-width:520px; width:100%;"> |
 
 ## What each part is responsible for
 
