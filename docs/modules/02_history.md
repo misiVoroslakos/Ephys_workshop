@@ -7,6 +7,10 @@ This module gives you a fast timeline for *why* modern systems look the way they
 - **Intracellular** recording drove early biophysics: resting potential, AP shape, synaptic potentials.
 - **Extracellular** recording enabled stable, long-duration single-unit recordings, chronic implants, and eventually large-scale population recordings.
 
+## “Worth watching” resource
+- Professor Ken Wise: [The Rocky Road to Neurotechnology](https://www.youtube.com/watch?v=G5mfF5yV_lA)
+- [Neuronexus: “A brief history of electrode technology”](https://www.neuronexus.com/a-brief-history-of-electrode-technology/)
+
 ## Timeline highlights
 ### 1930s–1950s: “Intracellular revolution”
 - Glass micropipettes
@@ -39,10 +43,6 @@ This module gives you a fast timeline for *why* modern systems look the way they
   - [**Hecto-STAR**](https://advanced.onlinelibrary.wiley.com/doi/full/10.1002/advs.202105414)
   - Flexible probes 
   - Opto-flex probes
-
-## “Worth watching” resource
-- Professor Ken Wise: [The Rocky Road to Neurotechnology](https://www.youtube.com/watch?v=G5mfF5yV_lA)
-- [Neuronexus: “A brief history of electrode technology”](https://www.neuronexus.com/a-brief-history-of-electrode-technology/)
 
 ## Why this history matters (practical takeaways)
 - Many “modern” problems are old problems in new form:
