@@ -88,15 +88,15 @@ Suggested structure for answers:
 4. Expected failure mode (unit loss, drift, mechanical damage, payload)
 5. What you would measure to declare success
 
-Solutions
-**Group 1**<br>
-[<img src="../assets/img/CA1_solution.png" alt="Group 1 solution" width="250">](../assets/img/CA1_solution.png)<br>
-**Group 2**<br>
-[<img src="../assets/img/Cortex_solution.png" alt="Group 1 solution" width="250">](../assets/img/Cortex_solution.png)<br>
-**Group 3**<br>
-[<img src="../assets/img/CM_thalamus_solution.png" alt="Group 1 solution" width="250">](../assets/img/CM_thalamus_solution.png)<br>
-**Group 4**<br>
-[<img src="../assets/img/rat_CPU_M1_solution.png" alt="Group 1 solution" width="250">](../assets/img/rat_CPU_M1_solution.png)<br>
+My Recommendations<br>
+**Group 1**<br><br>
+[<img src="../assets/img/CA1_solution.png" alt="Group 1 solution" width="250">](../assets/img/CA1_solution.png)<br><br>
+**Group 2**<br><br>
+[<img src="../assets/img/Cortex_solution.png" alt="Group 1 solution" width="250">](../assets/img/Cortex_solution.png)<br><br>
+**Group 3**<br><br>
+[<img src="../assets/img/CM_thalamus_solution.png" alt="Group 1 solution" width="250">](../assets/img/CM_thalamus_solution.png)<br><br>
+**Group 4**<br><br>
+[<img src="../assets/img/rat_CPU_M1_solution.png" alt="Group 1 solution" width="250">](../assets/img/rat_CPU_M1_solution.png)<br><br>
 
 ## Repo navigation
 - Next module in the deck is grounding/reference.
