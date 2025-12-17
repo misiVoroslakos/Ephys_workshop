@@ -50,7 +50,7 @@ Open-source microdrives can be great *starting points*, but expect iteration and
 - “Losing cells over time with Neuropixels”
 - Key point: single-unit yield can get worse over days; this happens with silicon probes if you don’t move them → motivating microdrives.
 
-Resource link from the deck:
+Resource link:
 - https://elifesciences.org/articles/59716
 
 ## 6) Neuropixels holders
@@ -76,7 +76,7 @@ A grab-bag of build protocols/videos:
 ## 8) In-workshop group exercise
 Pick a probe/implant strategy for each:
 
-**Group 1:** Freely moving mouse, dorsal CA1. Maximize simultaneously recorded single units from pyramidal layer.  
+**Group 1:** Freely moving mouse, dorsal CA1. Maximize simultaneously recorded single units from pyramidal layer. ([Solution](../assets/img/CA1_solution.png))
 **Group 2:** Mouse somatosensory cortex; laminar processing across L2/3, L4, L5, L6.  
 **Group 3:** Freely moving mouse, CM thalamus. Maximize unit yield.  
 **Group 4:** Freely moving rat, putamen + motor cortex. Maximize unit yield in both.
