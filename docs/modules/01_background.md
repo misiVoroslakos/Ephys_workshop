@@ -16,10 +16,16 @@ This module is the “on-ramp”: what to skim before the workshop, plus a short
   <img src="../assets/img/Bioelectricity.jpg" alt="Image 3" style="width:32%;"/>
 </div><br><br>
 
-[**The Biomedical Engineering Handbook**](https://biblioseb.wordpress.com/wp-content/uploads/2018/03/biomedical-engineering-handbook-j-d-bronzino.pdf)<br><br>
+[**The Biomedical Engineering Handbook**](https://biblioseb.wordpress.com/wp-content/uploads/2018/03/biomedical-engineering-handbook-j-d-bronzino.pdf)
   - **Section II**
   - **Section V**
   - **Chapter 70**<br><br>
+
+**Review Articles**
+[In vivo microelectrode arrays for neuroscience](https://www.nature.com/articles/s43586-025-00399-7)<br>
+[Microelectrodes, Microelectronics, and Implantable Neural Microsystems](https://ieeexplore.ieee.org/document/4545308)<br>
+[State-of-the-art MEMS and microsystem tools for brain research](https://www.nature.com/articles/micronano201666)<br>
+[The origin of extracellular fields and currents — EEG, ECoG, LFP and spikes](https://www.nature.com/articles/nrn3241)<br><br>
 
 ## What you should be able to answer after this module
 - What “extracellular electrophysiology” measures (and what it does *not* measure).
@@ -29,4 +35,4 @@ This module is the “on-ramp”: what to skim before the workshop, plus a short
 
 ## Repo navigation
 - Next: [Module 02 — History](02_history.md)
-- Slides PDF: `slides/Electrophysiology_Workshop.pdf`
+- **Slides (PDF):** [slides/Electrophysiology_Workshop.pdf](slides/Electrophysiology_Workshop.pdf)
