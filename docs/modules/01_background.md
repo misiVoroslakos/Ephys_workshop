@@ -22,10 +22,10 @@ This module is the “on-ramp”: what to skim before the workshop, plus a short
   - **Chapter 70**<br><br>
 
 **Review Articles**
-[In vivo microelectrode arrays for neuroscience](https://www.nature.com/articles/s43586-025-00399-7)<br>
-[Microelectrodes, Microelectronics, and Implantable Neural Microsystems](https://ieeexplore.ieee.org/document/4545308)<br>
-[State-of-the-art MEMS and microsystem tools for brain research](https://www.nature.com/articles/micronano201666)<br>
-[The origin of extracellular fields and currents — EEG, ECoG, LFP and spikes](https://www.nature.com/articles/nrn3241)<br><br>
+- 2025: [In vivo microelectrode arrays for neuroscience](https://www.nature.com/articles/s43586-025-00399-7)<br>
+- 2017: [State-of-the-art MEMS and microsystem tools for brain research](https://www.nature.com/articles/micronano201666)<br>
+- 2008: [Microelectrodes, Microelectronics, and Implantable Neural Microsystems](https://ieeexplore.ieee.org/document/4545308)<br>
+- 2012: [The origin of extracellular fields and currents — EEG, ECoG, LFP and spikes](https://www.nature.com/articles/nrn3241)<br><br>
 
 ## What you should be able to answer after this module
 - What “extracellular electrophysiology” measures (and what it does *not* measure).
