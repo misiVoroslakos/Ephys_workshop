@@ -1,44 +1,33 @@
-<!-- docs/modules/12_preprocessing_spikesorting.md -->
+---
+layout: default
+title: "Module 12 — Preprocessing & spike sorting"
+---
+
 # Module 12 — Preprocessing & spike sorting
 
-This module is the minimal pipeline from raw data to units + QC.
+This module is a **high-level checklist** for taking raw extracellular recordings to “sorting-ready” data. The goal is to keep the website readable and put the step-by-step procedure into a reusable MATLAB function.
 
-## The pipeline (typical)
-1. Data integrity check (files, dropped samples, sync lines)
-2. Filtering (high-pass for spikes; band-limited LFP)
-3. Referencing (common average, local reference, etc.)
-4. Spike detection + clustering (sorter)
-5. Curation + QC
-6. Export units + metrics
-7. Downstream analyses (PSTHs, decoding, coupling, etc.)
+## What this module covers
+- Concatenating raw recording segments into one `.dat`
+- Generating an LFP file for fast browsing / sleep scoring
+- Building session metadata (channel groups, sampling rate, anatomy notes)
+- Parsing digital TTL inputs to define stimulation/manipulation epochs
+- Removing stimulation artifacts (linear interpolation windows)
+- Reducing global/common-mode noise (median subtraction)
+- Optional: sleep scoring and manual correction
 
-## What can go wrong (common)
-- Bad channel map → wrong geometry
-- Poor reference → sorter struggles (common-mode noise)
-- Drift → split units or merged units
-- Motion artifacts → false spikes
-- Saturation → unusable segments
+## Practical outcomes
+After running the tutorial function, you should have:
+- A concatenated `.dat`
+- A `.lfp` file
+- Session metadata saved
+- (Optional) `stimulation.mat` + `YOURmanipulation.manipulation.mat`
+- (Optional) artifact-cleaned `.dat`
+- A cleaner dataset for spike sorting
 
-## Minimal QC metrics to report
-- number of units by quality class
-- firing rates + ISI violations
-- waveform stability over time
-- drift measures
-- fraction of contamination / refractory violations
-- yield per region/shank (if applicable)
+## MATLAB tutorial
+Run the preprocessing function from MATLAB:
 
-## Practical suggestions
-- Save intermediate artifacts:
-  - filtered snippets
-  - drift plots
-  - sorter logs
-- Version the exact parameters used
+- [`code/matlab/ephys_preprocess_buzcode.m`](../../code/matlab/ephys_preprocess_buzcode.m)
 
-## Exercise
-Given a sorted dataset:
-- identify 3 good units + 3 bad units and explain why
-- quantify drift in one shank
-- compare yield before/after a reference change
-
-## Repo navigation
-- Back to: [Front page](../index.md)
+> Tip: open the `.m` file — the top comment block contains a “quick start” example you can copy-paste.
