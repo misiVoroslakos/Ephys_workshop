@@ -22,8 +22,8 @@ Channel maps are the bridge between:
 Create the channel map for this probe:
 <div style="display:flex; gap:20px; align-items:flex-start;">
   <img src="../assets/img/ASSY_156_H2_map.png" alt="Probe Layout" style="width:32%;"/>
-  <img src="../assets/img/RHD2164_BGA_headstage_electrode_connector_top_600.png" alt="Omnetics layout" style="width:32%;"/>
-  <img src="../assets/img/RHD2164_BGA_headstage_electrode_connector_bottom_600.png" alt="Headstage pinout" style="width:32%;"/>
+  <img src="../assets/img/RHD2164_BGA_headstage_electrode_connector_top_600.jpg" alt="Omnetics layout" style="width:32%;"/>
+  <img src="../assets/img/RHD2164_BGA_headstage_electrode_connector_bottom_600.jpg" alt="Headstage pinout" style="width:32%;"/>
 </div><br><br>
 
 **Template (Excel):** [channel_map_empty_H2_only.xlsx](../resources/channel_map_empty_H2_only.xlsx)<br>
