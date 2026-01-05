@@ -61,7 +61,7 @@ This module is a **high-level checklist** for taking raw extracellular recording
  	- Make sure you have the following in your Matlab path:
 		- [Buzcode](https://github.com/buzsakilab/buzcode) (Don't forget to compile it.)
 		- [CellExplorer](https://cellexplorer.org/)
-		- [Custom codes](./../code/matlab/)
+		- [Custom codes](../../code/matlab/)<br><br>
 	- Preprocessing steps
 		- Concatenating raw recording segments into one `.dat`
 		- Generating an LFP file. **Important** to do before any other data manipulation.
