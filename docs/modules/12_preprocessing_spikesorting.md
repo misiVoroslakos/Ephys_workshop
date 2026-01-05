@@ -14,7 +14,7 @@ This module is a **high-level checklist** for taking raw extracellular recording
 	- port-A: 64-15 probe
 	- port-B: H2 probe
 	- digital input 0: TTL information for light delivery
-- Raw data can be found at Zenodo: ADD LINK.
+- Raw data can be found at [Zenodo](https://zenodo.org/records/18100544).
 
 ## What this module covers
 - Create your 'xml' file.
