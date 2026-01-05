@@ -32,34 +32,40 @@ This module is a **high-level checklist** for taking raw extracellular recording
 	- Download the [empty xlsx sheet](../resources/channel_map_empty.xlsx) and create the channel map for this experiment.
 	- Channel layout for [64-15 probe](../resources/Dual_Sided_64_1.pdf).
 	- Channel layout for [H2 probe](../resources/ASSY_156_H2_map.pdf).
-	- Channel layout for Intan RHD 64-channel headstage [top](../resources/RHD2164_BGA_headstage_electrode_connector_top_600.jpg) and [bottom](../resources/RHD2164_BGA_headstage_electrode_connector_bottom_600.jpg)<br>
+	- Channel layout for Intan RHD 64-channel headstage [top](../resources/RHD2164_BGA_headstage_electrode_connector_top_600.jpg) and [bottom](../resources/RHD2164_BGA_headstage_electrode_connector_bottom_600.jpg).<br>
 	- Copy the final channel map values into sheet2 and use [excel2xml.m](../../code/matlab/excel2xml.m)
 		- [pipeline_xml.m](../../code/matlab/pipeline_xml.m) is a good starting point on how to use this function.
 	- **Tip:** Don't forget that Neuroscope visualizes channels from 0 to 192.
 	- A filled out Excel sheet can be found [here](../resources/channel_map.xlsx).
 
-3) Copy the generated '.xml' file into baseline_220903_153754 folder and rename it **amplifier.xml**.
+3) Copy the generated '.xml' file into **baseline_220903_153754** folder and rename it **amplifier.xml**.
 	- Assign Neuroscope as default software for binary dat files. See video [here](https://www.youtube.com/watch?v=GWPmXnNBgCc).
 	- You should see something like this.![Example output](../assets/img/baseline_screenshot.png)
 	- Note that we have 10 groups of channels.
 		- 8 groups for the 64-15 probe (4 shank x 2 sides = 8 groups).
 		- 2 groups for the H2 probe (2 shank = 2 groups).
 	- If you have difficulty creating your own '.xml' file, you can download one from [here](../resources/amplifier.xml).
-		- Save this file in baseline_220903_153754 folder and open the amplifier.dat file. <br><br>
+		- Save this file in **baseline_220903_153754** folder and open the amplifier.dat file. <br><br>
 
 4) Create spike groups, mark bad channels in **Neuroscope**. Watch video [here](https://www.youtube.com/watch?v=L1FqEgNhCMo).
 	- Buzcode functions rely on the channel assignment in .xml file during later processing.
 		- In general, you want to make this once per probe and then just copy paste the xml. You can also copy across animals, as long as nothing changed in the number of channels.
 		- If some of your channel(s) or shank(s) break, then you can move those channels to bad (**?** category at the bottom of SpikeGroups).
 	- It is important to mark bad/broken channels for spike sorting.
+	- Neuroscope [**cheat sheet**](../resources/Neuroscope_cheat_sheet.docx).
 
-5) Concatenating raw recording segments into one `.dat`
-- Generating an LFP file for fast browsing / sleep scoring
-- Building session metadata (channel groups, sampling rate, anatomy notes)
-- Parsing digital TTL inputs to define stimulation/manipulation epochs
-- Removing stimulation artifacts (linear interpolation windows)
-- Reducing global/common-mode noise (median subtraction)
-- Optional: sleep scoring and manual correction
+5) Preprocess using Matlab. Follow the steps in [preprocessing_pipeline_Raw_data.m](../../code/matlab/preprocessing_pipeline_Raw_data.m)
+- This code is already adapted for the Raw data at Zenodo.
+	- Recording sessions: pre_baseline - optogenetic stimulation - post_baseline
+	- Stimulation: 100 ms duration, 5 intensities.
+- Preprocessing steps
+	- Concatenating raw recording segments into one `.dat`
+	- Generating an LFP file. **Important** to do before any other data manipulation.
+	- Building session metadata (channel groups, sampling rate, anatomy notes) based on [CellExplorer](https://cellexplorer.org/) pipeline.
+	- Parsing digital TTL inputs to define stimulation/manipulation epochs
+	- Removing stimulation artifacts (linear interpolation windows) **This will cut and replace data!**
+	- Reducing global/common-mode noise (median subtraction) **Helps with spike sorting**
+	- Sleep scoring and manual correction
 
 ## Practical outcomes
 After running the tutorial function, you should have:
@@ -70,9 +76,3 @@ After running the tutorial function, you should have:
 - (Optional) artifact-cleaned `.dat`
 - A cleaner dataset for spike sorting
 
-## MATLAB tutorial
-Run the preprocessing function from MATLAB:
-
-- [`code/matlab/ephys_preprocess_buzcode.m`](../../code/matlab/ephys_preprocess_buzcode.m)
-
-> Tip: open the `.m` file — the top comment block contains a “quick start” example you can copy-paste.
