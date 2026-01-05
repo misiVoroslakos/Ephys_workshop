@@ -8,6 +8,7 @@ Materials for a practical workshop on extracellular electrophysiology: probes, i
 ## Start here
 - **Front page / website:** [docs/index.md](docs/index.md)
 - **Slides (PDF):** [slides/Electrophysiology_Workshop.pdf](slides/Electrophysiology_Workshop.pdf)
+	- Each slide has a reference to the Modules here in the top right corner from M01 to M12.
 
 ## Who this is for
 Trainees and researchers who want to understand and execute modern extracellular ephys experiments (silicon probes, Neuropixels, microdrives) and the practical engineering tradeoffs.
