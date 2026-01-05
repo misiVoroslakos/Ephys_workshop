@@ -9,7 +9,7 @@ This module is a **high-level checklist** for taking raw extracellular recording
 ## Data
 - Head-fixed mouse expressing Channelrhodopsin-2 in pyramidal cells is recorded with two probes:
 	- 64-15 probe (Diagnostic Biochips) targeting CA1 region of the hippocampus.
-	- H2 probes (Cambridge Neurotech) targeting CA3 region of the hippocampus.
+	- H2 probe (Cambridge Neurotech) targeting CA3 region of the hippocampus.
 - Intan RHD USB Eval system is used to record data at 20 kS/s.
 	- port-A: 64-15 probe
 	- port-B: H2 probe
@@ -19,6 +19,10 @@ This module is a **high-level checklist** for taking raw extracellular recording
 ## What this module covers
 - Create your 'xml' file.
 	- Download the [empty xlsx sheet](../resources/channel_map_empty.xlsx) and create the channel map for this experiment.
+	- Channel layout for [64-15 probe](../resources/Dual_Sided_64_1.pdf).
+	- Channel layout for [H2 probe](../resources/ASSY_156_H2_map.pdf).
+	- Channel layout for Intan RHD 64-channel headstage [top](../resources/RHD2164_BGA_headstage_electrode_connector_top_600.jpg) and [bottom](../resources/RHD2164_BGA_headstage_electrode_connector_bottom_600.jpg)<br>
+	- A filled out Excel sheet can be found [here](./resources/channel_map.xlsx).
 - Concatenating raw recording segments into one `.dat`
 - Generating an LFP file for fast browsing / sleep scoring
 - Building session metadata (channel groups, sampling rate, anatomy notes)
