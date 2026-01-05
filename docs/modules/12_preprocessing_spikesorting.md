@@ -16,13 +16,17 @@ This module is a **high-level checklist** for taking raw extracellular recording
 	- digital input 0: TTL information for light delivery
 - Raw data can be found at [Zenodo](https://zenodo.org/records/18100544).
 
-## What this module covers
-- Create your 'xml' file.
+## Guide for the preprocessing
+1) Download the raw data. 
+	- Data was collected using the [“One File Per Signal Type” Format](../resources/Intan_RHD2000_data_file_formats.pdf)
+2) Create your 'xml' file.
 	- Download the [empty xlsx sheet](../resources/channel_map_empty.xlsx) and create the channel map for this experiment.
 	- Channel layout for [64-15 probe](../resources/Dual_Sided_64_1.pdf).
 	- Channel layout for [H2 probe](../resources/ASSY_156_H2_map.pdf).
 	- Channel layout for Intan RHD 64-channel headstage [top](../resources/RHD2164_BGA_headstage_electrode_connector_top_600.jpg) and [bottom](../resources/RHD2164_BGA_headstage_electrode_connector_bottom_600.jpg)<br>
+	- Copy the final channel map values into sheet2 and use [excel2xml.m](code/matlab/excel2xml.m)
 	- A filled out Excel sheet can be found [here](./resources/channel_map.xlsx).
+	- 
 - Concatenating raw recording segments into one `.dat`
 - Generating an LFP file for fast browsing / sleep scoring
 - Building session metadata (channel groups, sampling rate, anatomy notes)
