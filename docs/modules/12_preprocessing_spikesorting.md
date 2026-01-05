@@ -24,7 +24,7 @@ This module is a **high-level checklist** for taking raw extracellular recording
 	- Channel layout for [64-15 probe](../resources/Dual_Sided_64_1.pdf).
 	- Channel layout for [H2 probe](../resources/ASSY_156_H2_map.pdf).
 	- Channel layout for Intan RHD 64-channel headstage [top](../resources/RHD2164_BGA_headstage_electrode_connector_top_600.jpg) and [bottom](../resources/RHD2164_BGA_headstage_electrode_connector_bottom_600.jpg)<br>
-	- Copy the final channel map values into sheet2 and use [excel2xml.m](code/matlab/excel2xml.m)
+	- Copy the final channel map values into sheet2 and use [excel2xml.m](docs/modules/code/matlab/excel2xml.m)
 	- A filled out Excel sheet can be found [here](./resources/channel_map.xlsx).
 	- 
 - Concatenating raw recording segments into one `.dat`
