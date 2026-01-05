@@ -57,7 +57,11 @@ This module is a **high-level checklist** for taking raw extracellular recording
 5) Preprocess using Matlab. Follow the steps in [preprocessing_pipeline_Raw_data.m](../../code/matlab/preprocessing_pipeline_Raw_data.m)
 - This code is already adapted for the Raw data at Zenodo.
 	- Recording sessions: pre_baseline - optogenetic stimulation - post_baseline
-	- Stimulation: 100 ms duration, 5 intensities.
+	- Stimulation: 100 ms duration, 5 intensities.<br><br>
+ 	- Make sure you have the following in your Matlab path:
+	- [Buzcode](https://github.com/buzsakilab/buzcode) (Don't forget to compile it.)
+	- [CellExplorer](https://cellexplorer.org/)
+	- [Custom codes](./../code/matlab)
 - Preprocessing steps
 	- Concatenating raw recording segments into one `.dat`
 	- Generating an LFP file. **Important** to do before any other data manipulation.
