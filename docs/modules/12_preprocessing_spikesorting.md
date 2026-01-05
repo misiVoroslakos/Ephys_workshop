@@ -18,6 +18,7 @@ This module is a **high-level checklist** for taking raw extracellular recording
 
 ## What this module covers
 - Create your 'xml' file.
+	- Download the [empty xlsx sheet](docs\resources\channel_map_empty.xlsx) and create the channel map for this experiment.
 - Concatenating raw recording segments into one `.dat`
 - Generating an LFP file for fast browsing / sleep scoring
 - Building session metadata (channel groups, sampling rate, anatomy notes)
