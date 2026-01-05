@@ -7,7 +7,7 @@ This module is a **high-level checklist** for taking raw extracellular recording
 - You understand how channel maps are created. If not, please do the exercise in **Module 11**.
 
 ## Data
-- Head-fixed mouse expressing Channelrhodopsin-2 in pyramidal cells is recorded with two probes:
+- Head-fixed mouse expressing Channelrhodopsin-2 in pyramidal cells is recorded with two probes [schematic here](../assets/img/channel_map_recording_schematic.png):
 	- 64-15 probe (Diagnostic Biochips) targeting CA1 region of the hippocampus.
 	- H2 probe (Cambridge Neurotech) targeting CA3 region of the hippocampus.
 - Intan RHD USB Eval system is used to record data at 20 kS/s.
@@ -44,10 +44,16 @@ This module is a **high-level checklist** for taking raw extracellular recording
 	- Note that we have 10 groups of channels.
 		- 8 groups for the 64-15 probe (4 shank x 2 sides = 8 groups).
 		- 2 groups for the H2 probe (2 shank = 2 groups).
-	- If you have difficulty creating your own '.xml' file, you can download one from [here](../resources/amplifier.xml)
+	- If you have difficulty creating your own '.xml' file, you can download one from [here](../resources/amplifier.xml).
 		- Save this file in baseline_220903_153754 folder and open the amplifier.dat file. <br><br>
 
-4) Concatenating raw recording segments into one `.dat`
+4) Create spike groups, mark bad channels in **Neuroscope**. Watch video [here](https://www.youtube.com/watch?v=L1FqEgNhCMo).
+	- Buzcode functions rely on the channel assignment in .xml file during later processing.
+		- In general, you want to make this once per probe and then just copy paste the xml. You can also copy across animals, as long as nothing changed in the number of channels.
+		- If some of your channel(s) or shank(s) break, then you can move those channels to bad (**?** category at the bottom of SpikeGroups).
+	- It is important to mark bad/broken channels for spike sorting.
+
+5) Concatenating raw recording segments into one `.dat`
 - Generating an LFP file for fast browsing / sleep scoring
 - Building session metadata (channel groups, sampling rate, anatomy notes)
 - Parsing digital TTL inputs to define stimulation/manipulation epochs
