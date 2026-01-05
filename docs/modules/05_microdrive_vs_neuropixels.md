@@ -40,7 +40,7 @@ Head-fixed awake paradigms and minimizing tether forces can improve stability.
 - Choose **microdrive** if your success metric is **maximum well-isolated units** over time 
 - Choose **Neuropixels** if you need **multi-region / large-volume simultaneity** and distributed timing
 
-**Take-home:** yield vs coverage — “pick your poison.
+**Take-home:** yield vs coverage — "pick your poison".
 
 ## Neuropixels holders
 A grab-bag of build protocols/videos:
