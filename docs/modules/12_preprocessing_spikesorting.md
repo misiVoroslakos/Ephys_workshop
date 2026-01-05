@@ -55,21 +55,21 @@ This module is a **high-level checklist** for taking raw extracellular recording
 	- Neuroscope [**cheat sheet**](../resources/Neuroscope_cheat_sheet.docx).
 
 5) Preprocess using Matlab. Follow the steps in [preprocessing_pipeline_Raw_data.m](../../code/matlab/preprocessing_pipeline_Raw_data.m)
-- This code is already adapted for the Raw data at Zenodo.
-	- Recording sessions: pre_baseline - optogenetic stimulation - post_baseline
-	- Stimulation: 100 ms duration, 5 intensities.<br><br>
+	- This code is already adapted for the Raw data at Zenodo.
+		- Recording sessions: pre_baseline - optogenetic stimulation - post_baseline
+		- Stimulation: 100 ms duration, 5 intensities.<br><br>
  	- Make sure you have the following in your Matlab path:
-	- [Buzcode](https://github.com/buzsakilab/buzcode) (Don't forget to compile it.)
-	- [CellExplorer](https://cellexplorer.org/)
-	- [Custom codes](./../code/matlab)
-- Preprocessing steps
-	- Concatenating raw recording segments into one `.dat`
-	- Generating an LFP file. **Important** to do before any other data manipulation.
-	- Building session metadata (channel groups, sampling rate, anatomy notes) based on [CellExplorer](https://cellexplorer.org/) pipeline.
-	- Parsing digital TTL inputs to define stimulation/manipulation epochs
-	- Removing stimulation artifacts (linear interpolation windows) **This will cut and replace data!**
-	- Reducing global/common-mode noise (median subtraction) **Helps with spike sorting**
-	- Sleep scoring and manual correction
+		- [Buzcode](https://github.com/buzsakilab/buzcode) (Don't forget to compile it.)
+		- [CellExplorer](https://cellexplorer.org/)
+		- [Custom codes](./../code/matlab)
+	- Preprocessing steps
+		- Concatenating raw recording segments into one `.dat`
+		- Generating an LFP file. **Important** to do before any other data manipulation.
+		- Building session metadata (channel groups, sampling rate, anatomy notes) based on [CellExplorer](https://cellexplorer.org/) pipeline.
+		- Parsing digital TTL inputs to define stimulation/manipulation epochs
+		- Removing stimulation artifacts (linear interpolation windows) **This will cut and replace data!**
+		- Reducing global/common-mode noise (median subtraction) **Helps with spike sorting**
+		- Sleep scoring and manual correction
 
 ## Practical outcomes
 After running the tutorial function, you should have:
