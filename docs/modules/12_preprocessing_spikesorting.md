@@ -16,6 +16,11 @@ This module is a **high-level checklist** for taking raw extracellular recording
 	- digital input 0: TTL information for light delivery
 - Raw data can be found at [Zenodo](https://zenodo.org/records/18100544).
 
+## Visulization of the data
+- Download [Neuroscope](https://neurosuite.sourceforge.net/)
+- To visualize a file with Neuroscope, you will need in the same folder:
+	- binary '.dat', '.bin', '.lfp', '.eeg' file
+	- .xml with the same name as your binary file (see below, how to create one).<br><br>
 ## Guide for the preprocessing
 1) Download the raw data. 
 	- Data was collected using the [“One File Per Signal Type” Format](../resources/Intan_RHD2000_data_file_formats.pdf)
@@ -26,9 +31,11 @@ This module is a **high-level checklist** for taking raw extracellular recording
 	- Channel layout for [H2 probe](../resources/ASSY_156_H2_map.pdf).
 	- Channel layout for Intan RHD 64-channel headstage [top](../resources/RHD2164_BGA_headstage_electrode_connector_top_600.jpg) and [bottom](../resources/RHD2164_BGA_headstage_electrode_connector_bottom_600.jpg)<br>
 	- Copy the final channel map values into sheet2 and use [excel2xml.m](../../code/matlab/excel2xml.m)
+		- [pipeline_xml.m](../../code/matlab/pipeline_xml.m) is a good starting point on how to use this function.
+
 	- A filled out Excel sheet can be found [here](../resources/channel_map.xlsx).
-	- 
-- Concatenating raw recording segments into one `.dat`
+3) 
+ Concatenating raw recording segments into one `.dat`
 - Generating an LFP file for fast browsing / sleep scoring
 - Building session metadata (channel groups, sampling rate, anatomy notes)
 - Parsing digital TTL inputs to define stimulation/manipulation epochs
