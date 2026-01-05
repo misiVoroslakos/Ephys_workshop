@@ -37,9 +37,8 @@ This module is a **high-level checklist** for taking raw extracellular recording
 	- **Tip:** Don't forget that Neuroscope visualizes channels from 0 to 192.
 	- A filled out Excel sheet can be found [here](../resources/channel_map.xlsx).
 3) Copy the generated '.xml' file into baseline_220903_153754 folder and rename it **amplifier.xml**.
-	- You should see something like this. 
-![Example output](../assets/img/ybaseline_screenshot.png)
- Concatenating raw recording segments into one `.dat`
+	- You should see something like this.![Example output](../assets/img/baseline_screenshot.png)
+4) Concatenating raw recording segments into one `.dat`
 - Generating an LFP file for fast browsing / sleep scoring
 - Building session metadata (channel groups, sampling rate, anatomy notes)
 - Parsing digital TTL inputs to define stimulation/manipulation epochs
