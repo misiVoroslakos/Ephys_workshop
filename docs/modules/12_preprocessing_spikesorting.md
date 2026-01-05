@@ -26,6 +26,7 @@ This module is a **high-level checklist** for taking raw extracellular recording
 	- Data was collected using the [“One File Per Signal Type” Format](../resources/Intan_RHD2000_data_file_formats.pdf)
 		- port-A records: 0-127 channels
 		- port-B records: 0-63 channels
+
 2) Create your 'xml' file.
 	- Download the [generic_XML.xml](../resources/generic_XML.xml) file.
 	- Download the [empty xlsx sheet](../resources/channel_map_empty.xlsx) and create the channel map for this experiment.
@@ -36,12 +37,16 @@ This module is a **high-level checklist** for taking raw extracellular recording
 		- [pipeline_xml.m](../../code/matlab/pipeline_xml.m) is a good starting point on how to use this function.
 	- **Tip:** Don't forget that Neuroscope visualizes channels from 0 to 192.
 	- A filled out Excel sheet can be found [here](../resources/channel_map.xlsx).
+
 3) Copy the generated '.xml' file into baseline_220903_153754 folder and rename it **amplifier.xml**.
 	- Assign Neuroscope as default software for binary dat files. See video [here](https://www.youtube.com/watch?v=GWPmXnNBgCc).
 	- You should see something like this.![Example output](../assets/img/baseline_screenshot.png)
 	- Note that we have 10 groups of channels.
 		- 8 groups for the 64-15 probe (4 shank x 2 sides = 8 groups).
-		- 2 groups for the H2 probe (2 shank = 2 groups).<br><br>
+		- 2 groups for the H2 probe (2 shank = 2 groups).
+	- If you have difficulty creating your own '.xml' file, you can download one from [here](../resources/amplifier.xml)
+		- Save this file in baseline_220903_153754 folder and open the amplifier.dat file. <br><br>
+
 4) Concatenating raw recording segments into one `.dat`
 - Generating an LFP file for fast browsing / sleep scoring
 - Building session metadata (channel groups, sampling rate, anatomy notes)
