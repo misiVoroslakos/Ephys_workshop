@@ -20,6 +20,7 @@ This module is a **high-level checklist** for taking raw extracellular recording
 1) Download the raw data. 
 	- Data was collected using the [“One File Per Signal Type” Format](../resources/Intan_RHD2000_data_file_formats.pdf)
 2) Create your 'xml' file.
+	- Download the [generic_XML.xml](../resources/generic_XML.xml) file.
 	- Download the [empty xlsx sheet](../resources/channel_map_empty.xlsx) and create the channel map for this experiment.
 	- Channel layout for [64-15 probe](../resources/Dual_Sided_64_1.pdf).
 	- Channel layout for [H2 probe](../resources/ASSY_156_H2_map.pdf).
