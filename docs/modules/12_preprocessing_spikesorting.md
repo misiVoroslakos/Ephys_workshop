@@ -20,10 +20,12 @@ This module is a **high-level checklist** for taking raw extracellular recording
 - Download [Neuroscope](https://neurosuite.sourceforge.net/)
 - To visualize a file with Neuroscope, you will need in the same folder:
 	- binary '.dat', '.bin', '.lfp', '.eeg' file
-	- .xml with the same name as your binary file (see below, how to create one).<br><br>
+	- '.xml' with the same name as your binary file (**see below, how to create one**).<br><br>
 ## Guide for the preprocessing
 1) Download the raw data. 
 	- Data was collected using the [“One File Per Signal Type” Format](../resources/Intan_RHD2000_data_file_formats.pdf)
+		- port-A records: 0-127 channels
+		- port-B records: 0-63 channels
 2) Create your 'xml' file.
 	- Download the [generic_XML.xml](../resources/generic_XML.xml) file.
 	- Download the [empty xlsx sheet](../resources/channel_map_empty.xlsx) and create the channel map for this experiment.
@@ -32,9 +34,11 @@ This module is a **high-level checklist** for taking raw extracellular recording
 	- Channel layout for Intan RHD 64-channel headstage [top](../resources/RHD2164_BGA_headstage_electrode_connector_top_600.jpg) and [bottom](../resources/RHD2164_BGA_headstage_electrode_connector_bottom_600.jpg)<br>
 	- Copy the final channel map values into sheet2 and use [excel2xml.m](../../code/matlab/excel2xml.m)
 		- [pipeline_xml.m](../../code/matlab/pipeline_xml.m) is a good starting point on how to use this function.
-
+	- **Tip:** Don't forget that Neuroscope visualizes channels from 0 to 192.
 	- A filled out Excel sheet can be found [here](../resources/channel_map.xlsx).
-3) 
+3) Copy the generated '.xml' file into baseline_220903_153754 folder and rename it **amplifier.xml**.
+	- You should see something like this. 
+![Example output](../assets/img/ybaseline_screenshot.png)
  Concatenating raw recording segments into one `.dat`
 - Generating an LFP file for fast browsing / sleep scoring
 - Building session metadata (channel groups, sampling rate, anatomy notes)
