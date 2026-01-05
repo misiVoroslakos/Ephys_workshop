@@ -30,7 +30,7 @@ Often **~1–3 days** of a high-quality population, then advance again to sample
 - “Move” channels virtually by selecting recording sites along the shank
 
 ### What tends to happen over time
-Progressive **single-unit loss from day 1** is common in chronic NP datasets (often noticeable over the first week).
+Progressive **single-unit loss from day 1** is common in chronic NP datasets (often noticeable over the first week).<br>
 Papers that quantified this: [Luo et. al.](https://elifesciences.org/articles/59716); [Bimbard et. al.](https://elifesciences.org/reviewed-preprints/98522)
 
 ### Mitigations
